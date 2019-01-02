@@ -1,5 +1,5 @@
 #guidename must match the id of the implementation guide
-guidename=genomics-reporting
+guidename=sample-ig
 copyrightyear=2017+
 license=CC0-1.0
 version=0.3
