@@ -21,9 +21,11 @@ More information on Implementation Guide usage, authoring, publishing, and tools
     * Vocabulary (``src/vocabulary/``)
     * Examples (``src/examples``)
 
-* Execute a build to compile the IG into a static site:
-    * **Windows**: `call _clean.bat && call _genonce.bat` 
-    * **Linux**: `sh _clean.sh; sh _genonce.sh` 
+* Execute a build to compile the IG into a static site (``*.sh`` and ``*.bat`` files inlcuded for Windows and Linux distributions):
+    * ``_genonce.*`` Will execute a build 
+    * ``_genUpdatePublisher.*`` Will download the HL7 IG Publisher tool and then execute a build
+    * ``_clean.*`` Will clean the ``src-generated/`` directory
+
 
 ### Thanks
 Many thanks to the HL7 team and the "Genomics Reporting" implementation guide, on which a lot of this template is based.
